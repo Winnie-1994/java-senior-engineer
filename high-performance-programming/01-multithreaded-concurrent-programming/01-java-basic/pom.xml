@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>szu.panda</groupId>
+    <artifactId>01-multithreaded-concurrent-programming</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>01-java-basic</artifactId>
+  <name>01-java-basic</name>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>01-java-program-operation-principle-analysis</module>
+  	<module>02-thread-state</module>
+  	<module>03-thread-suspend</module>
+  	<module>04-memory-barriers-and-cpu-caches</module>
+  	<module>05-thread-communication</module>
+  	<module>06-thread-closed</module>
+  	<module>07-thread-pool</module>
+  </modules>
+</project>

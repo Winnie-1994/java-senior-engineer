@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>szu.panda</groupId>
+    <artifactId>02-high-concurrency-network-programming</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>02-Netty-frame-source-code</artifactId>
+  <packaging>pom</packaging>
+  <name>02-Netty-frame-source-code</name>
+  <modules>
+  	<module>01-Netty-thread-model</module>
+  	<module>02-chain-of-responsibility-pattern</module>
+  	<module>03-zero-copy-mechanism</module>
+  </modules>
+</project>
