@@ -1,0 +1,18 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: helloserver-5
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9000/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

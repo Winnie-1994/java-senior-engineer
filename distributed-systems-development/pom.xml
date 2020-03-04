@@ -5,12 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>szu.panda</groupId>
-    <artifactId>high-performance-programming</artifactId>
+    <artifactId>distributed-systems-development</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>springcloud-microservice</module>
+        <module>spring-cloud-eureka</module>
     </modules>
 
 </project>
