@@ -8,6 +8,15 @@ spring:
 
 eureka:
   client:
-    service-url:
-      defaultZone : http://127.0.0.1:9002/eureka/
+#    service-url:
+#      defaultZone : http://127.0.0.1:9002/eureka/
+    #enabled配置为false，就不会往注册中心注册服务
+    enabled: false
+
+##自定义ribbon
+##1、定义一个serverlist给我们使用负载均衡
+##格式 {serviceid}:ribbon:listOfServers
+hello-server:
+  ribbon:
+    listOfServers: 127.0.0.1:8001, 127.0.0.1:8002
 

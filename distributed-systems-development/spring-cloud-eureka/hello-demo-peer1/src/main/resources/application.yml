@@ -1,8 +1,8 @@
 server:
-  port: 8005
+  port: 8001
 spring:
   application:
-    name: helloserver-5
+    name: helloserver
 
 
 
